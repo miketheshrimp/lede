@@ -8,19 +8,19 @@
 
 name: Merge-upstream
 
-on:
-  push:
-    branches: 
-      - master
-  schedule:
-    - cron: 30 19 * * *
+#on:
+#  push:
+#    branches: 
+#      - master
+#  schedule:
+#    - cron: 30 19 * * *
 
-jobs:
-  merge:
+#jobs:
+#  merge:
 
-    runs-on: ubuntu-latest
+#    runs-on: ubuntu-latest
 
-    steps:
+#    steps:
 
     - name: Checkout
       uses: actions/checkout@master
